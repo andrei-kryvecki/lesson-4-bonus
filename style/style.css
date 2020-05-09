@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: darkslategrey;
+}
+.box {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+}
+.square {
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;  
+    z-index: 2;
+}
+.square:hover{
+    background-color: chartreuse;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%; 
+    z-index: 4;
+}
+.square--tiny{
+    background-color: yellow;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 37.5%;
+    left: 37.5%;
+    border-radius: 10%;
+    z-index: 3;
+}
+.circle-first{
+    background-color: red;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 12.5%;
+    left: 12.5%;
+    border-radius: 50%;
+    z-index: 1;
+}
+.circle-first:hover{
+    background-color: purple;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 12.5%;
+    left: 12.5%;
+    border-radius: 50%;
+    z-index: 4;
+}
+.circle-second{
+    background-color: red;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 12.5%;
+    left: 62.5%;
+    border-radius: 50%;
+    z-index: 1;
+}
+.circle-second:hover{
+    background-color: fuchsia;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 12.5%;
+    left: 62.5%;
+    border-radius: 50%;
+    z-index: 4;
+}
+.circle-third{
+    background-color: red;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 62.5%;
+    left: 62.5%;
+    border-radius: 50%;
+    z-index: 1;
+}
+.circle-third:hover{
+    background-color: orangered;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 62.5%;
+    left: 62.5%;
+    border-radius: 50%;
+    z-index: 4;
+}
+.circle-fourth{
+    background-color: red;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 62.5%;
+    left: 12.5%;
+    border-radius: 50%;
+    z-index: 1;
+}
+.circle-fourth:hover{
+    background-color: cyan;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 62.5%;
+    left: 12.5%;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+/* _______________________ HEADER________________________ */
+
+
+/* ________________________ MAIN ________________________ */
+
+
+/* ___________________ virtues section __________________ */
+
+/* _______________________ FOOTER _______________________ */
